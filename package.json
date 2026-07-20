@@ -1,0 +1,29 @@
+{
+  "name": "neomax",
+  "version": "1.0.0",
+  "description": "AI-powered email outreach pipeline for neoMax using Google Gemini and Nodemailer",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "neomax",
+    "nodejs",
+    "automation",
+    "gemini",
+    "email",
+    "nodemailer",
+    "excel"
+  ],
+  "author": "neoMax",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.4.2",
+    "nodemailer": "^9.0.3",
+    "validator": "^13.15.35",
+    "xlsx": "^0.18.5"
+  }
+}
